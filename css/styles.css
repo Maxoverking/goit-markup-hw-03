@@ -10,8 +10,6 @@
     --section-order-service:#2F303A;
 }
 /* Боди CSS */
-.container-page{
-}
 
 body{
     background-color: var(--white-color);
@@ -23,6 +21,25 @@ body{
     
     
 }
+.container{
+    width: 1230px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.container-nav-page{
+    outline: 1px solid teal;
+    
+    
+    
+    
+    
+}
+
 a{
     text-decoration: none;
 }
@@ -35,6 +52,8 @@ a{
 }
 .basic{
     background-color: var(--white-color);
+    margin-top: 24px;
+    margin-bottom: 0px;
     
 }
 .logo{
@@ -46,6 +65,7 @@ a{
 }
 .logo .black:hover{
     color: var(--blue-color); 
+    
   
 }
 
@@ -58,17 +78,18 @@ ul{
 }
 .basic-linc,
 .basic-linck{
-  
+    margin: 0%; 
 }
+.basic-linc{
+    padding-left: 0%;
 
+}
 .basic-linc .linc{
     color: var(--black-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-    
-    
+    letter-spacing: 0.02em;    
 }
 
 .basic-linc .linc:hover, 
@@ -100,6 +121,10 @@ ul{
 .section-color-black{
     background: var(--section-order-service);
     outline: 2px solid red;
+    margin-top: 0%;
+    text-align: center;
+    
+
     
     
 
@@ -112,10 +137,13 @@ ul{
     text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
-    
+    margin-top: 0;
+    margin-bottom: 30px;
+
 }
 .section-color-black{
 outline: 2px solid red;
+margin-bottom: 94px;
 
 }
 .section-title-h2{
@@ -125,6 +153,8 @@ outline: 2px solid red;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-color);
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 .button {
     background-color: var(--blue-color);
@@ -134,8 +164,7 @@ outline: 2px solid red;
     font-size: 16px;
     border:  #2196F3;
     border-radius: 4px;
-
-    
+    text-align: center;
     
 }
 .button:hover,
@@ -159,7 +188,7 @@ outline: 2px solid red;
     border-radius: 4px;
 }
 .button-grey-block{
-    
+    display: flex;
 }
     
 .button-grey:hover,
@@ -171,7 +200,11 @@ outline: 2px solid red;
 }
 /* Картинки */
 .section-picture{
-    
+    margin-top: 0%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 94px;
 }
 
 /* Cекции h3 */
@@ -184,6 +217,8 @@ outline: 2px solid red;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-color);
+    margin-top: 0;
+    margin-bottom: 10px;
     
 
 }
@@ -196,6 +231,11 @@ outline: 2px solid red;
     display: inline-flex;
     text-align: start;
     outline: 2px solid red;
+    margin-top: 0%;
+    margin-bottom: 94px;
+}
+.main-information-title{
+    margin-top: 0%;
 }
 /* Команда */
 .section-team{
@@ -204,6 +244,7 @@ outline: 2px solid red;
   
 }
 .section-people{
+    margin-top: 0%;
 
 }
 .section-team-h3{
@@ -218,6 +259,7 @@ outline: 2px solid red;
     font-size: 16px;
     line-height: 1.18;
     color: var(--basic-text-color);
+    A
     
 }
 /* Проект */
@@ -250,4 +292,14 @@ outline: 2px solid red;
     color: var(--white-color);
     font-style: normal;
 
+}
+.basic-linck-footer .linck-footer{
+    color: var(--basic-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.linck-footer{
+    color: var(--blue-color);
 }
