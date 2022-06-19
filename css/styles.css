@@ -32,12 +32,7 @@ body{
 
 
 .container-nav-page{
-    outline: 1px solid teal;
-    
-    
-    
-    
-    
+    outline: 1px solid teal;   
 }
 
 a{
@@ -142,8 +137,8 @@ ul{
 
 }
 .section-color-black{
-outline: 2px solid red;
-margin-bottom: 94px;
+    outline: 2px solid red;
+    margin-bottom: 94px;
 
 }
 .section-title-h2{
@@ -155,7 +150,9 @@ margin-bottom: 94px;
     color: var(--black-color);
     margin-top: 0px;
     margin-bottom: 50px;
+    padding-top: 94px;   
 }
+
 .button {
     background-color: var(--blue-color);
     color: var(--white-color);
@@ -189,6 +186,9 @@ margin-bottom: 94px;
 }
 .button-grey-block{
     display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 34px;
 }
     
 .button-grey:hover,
@@ -238,13 +238,34 @@ margin-bottom: 94px;
     margin-top: 0%;
 }
 /* Команда */
+.section-team-container{
+    outline: 5px greenyellow;
+    
+} 
 .section-team{
     background: #F5F4FA;
-    outline: 2px solid red;
+    outline: 2px solid teal;
+    
+    
+    
   
 }
 .section-people{
-    margin-top: 0%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding-bottom: 94px;
+
+    
+    
+
+}
+.section-people li{
+    background-color: var(--white-color);
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 
 }
 .section-team-h3{
@@ -263,12 +284,17 @@ margin-bottom: 94px;
     
 }
 /* Проект */
+.project{
+    margin-top: 0px;
+    padding-left: 0px;  
+}
 .project-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--black-color);
+    
 
 }
 .project a{
@@ -284,13 +310,12 @@ margin-bottom: 94px;
 
 /* Футер */
 .footer-grey{
-    background-color: var(--section-order-service);
-    
-    
+    background-color: var(--section-order-service);   
 }
 .address{
     color: var(--white-color);
     font-style: normal;
+    margin-bottom: 9px;
 
 }
 .basic-linck-footer .linck-footer{
@@ -299,6 +324,12 @@ margin-bottom: 94px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-bottom: 9px;
+
+    
+}
+.basic-linck-footer{
+    padding-left: 0px;
 }
 .linck-footer{
     color: var(--blue-color);
