@@ -132,8 +132,9 @@ ul{
     text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 30px;
+    padding-top: 200px;
 
 }
 .section-color-black{
@@ -162,6 +163,7 @@ ul{
     border:  #2196F3;
     border-radius: 4px;
     text-align: center;
+    
     
 }
 .button:hover,
