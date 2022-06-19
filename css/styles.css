@@ -189,6 +189,7 @@ ul{
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 34px;
+    padding-left: 0px;
 }
     
 .button-grey:hover,
@@ -219,8 +220,6 @@ ul{
     color: var(--black-color);
     margin-top: 0;
     margin-bottom: 10px;
-    
-
 }
 .information{
     font-size: 14px;
@@ -244,11 +243,7 @@ ul{
 } 
 .section-team{
     background: #F5F4FA;
-    outline: 2px solid teal;
-    
-    
-    
-  
+    outline: 2px solid teal; 
 }
 .section-people{
     margin-top: 0px;
@@ -256,10 +251,7 @@ ul{
     justify-content: space-around;
     margin-bottom: 0px;
     padding-bottom: 94px;
-
-    
-    
-
+    padding-left: 0px;
 }
 .section-people li{
     background-color: var(--white-color);
@@ -280,13 +272,22 @@ ul{
     font-size: 16px;
     line-height: 1.18;
     color: var(--basic-text-color);
-    A
+    
     
 }
 /* Проект */
-.project{
+.section-block{
     margin-top: 0px;
     padding-left: 0px;  
+}
+
+
+.project-item{
+    width: 370px;
+    border: 1px solid #EEEEEE;
+    display: inline-block;
+    justify-content: space-between;
+    
 }
 .project-title{
     font-weight: 700;
@@ -295,13 +296,17 @@ ul{
     letter-spacing: 0.06em;
     color: var(--black-color);
     
+    
 
 }
+
 .project a{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--basic-text-color);
+
+    
 }
 
 
