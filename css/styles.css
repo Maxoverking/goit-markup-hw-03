@@ -187,6 +187,7 @@ ul{
 .button-grey-block{
     display: flex;
     justify-content: center;
+
     margin-top: 0px;
     margin-bottom: 34px;
     padding-left: 0px;
@@ -276,17 +277,24 @@ ul{
     
 }
 /* Проект */
+
 .section-block{
     margin-top: 0px;
-    padding-left: 0px;  
+    padding-left: 0px; 
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 .project-item{
     width: 370px;
     border: 1px solid #EEEEEE;
-    display: inline-block;
-    justify-content: space-between;
+    
+    
+    
+    
     
 }
 .project-title{
@@ -300,12 +308,12 @@ ul{
 
 }
 
-.project a{
+.project p{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--basic-text-color);
-
+    
     
 }
 
