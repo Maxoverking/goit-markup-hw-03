@@ -21,26 +21,27 @@
 
 <body>
     <!--Шапка сайта-->
-    <div class="container">
+    <div class="container ">
         <header class="basic">
-            <nav class="container-nav-page">
-                <a href="/" class="logo">Web<span class="black">Studio</span></a>
-                <ul class="basic-linc">
-                    <li><a class="linc " href="./index.html">Студия</a></li>
-                    <li><a class="linc current" href="./portfolio.html">Портфолио</a></li>
-                    <li><a class="linc " href="/">Контакты</a></li>
+            <div class="basic-header">
+                <nav class="container-nav-page">
+                    <a href="/" class="logo">Web<span class="black">Studio</span></a>
+                    <ul class="basic-linc">
+                        <li class="basic-li"><a class="linc" href="./index.html">Студия</a></li>
+                        <li class="basic-li"><a class="linc current " href="./portfolio.html">Портфолио</a></li>
+                        <li class="basic-li"><a class="linc" href="/">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="basic-linck">
+                    <li class="item"><a class="linck" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="item"><a class="linck" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-            </nav>
-            <ul class="basic-linck">
-                <li><a class="linck" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="linck" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+            </div>
         </header>
     </div>
     <!--Основа сайта-->
     <main>
         <section >
-            <h1>Фильтр</h1>
             <div class="container">
                 <ul class="button-grey-block">
                     <li><button class="button-grey" type="button">Все</button></li>
@@ -106,14 +107,16 @@
     </main>
     <!--Футер-->
     <footer class="footer-grey">
-        <a href="/" class="logo">Web<span class="white">Studio</span></a>
+        <div class="container">
+            <a href="/" class="logo">Web<span class="white">Studio</span></a>
 
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
 
-        <ul class="basic-linck">
-            <li><a class="linck" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="linck" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+            <ul class="basic-linck-footer">
+                <li><a class="linck-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="linck-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
 
     </footer>
 

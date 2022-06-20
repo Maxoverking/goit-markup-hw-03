@@ -23,16 +23,17 @@ body{
 }
 .container{
     width: 1230px;
-    outline: 1px solid red;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 1px solid red;
 }
 
 
-.container-nav-page{
-    outline: 1px solid teal;   
+.container-nav-page{  
+    display: flex;
+    align-items: center;
 }
 
 a{
@@ -55,8 +56,7 @@ a{
     color: var(--blue-color);
     font-family: 'Raleway';
     font-size: 26px;
-    
-     
+    margin-right: 93px;     
 }
 .logo .black:hover{
     color: var(--blue-color); 
@@ -71,13 +71,38 @@ a{
 ul{
     list-style: none;
 }
+
+.basic-header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
 .basic-linc,
 .basic-linck{
+    display: block;
     margin: 0%; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.basic-linck{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0px; 
+    margin-left: 331px;  
+}
+.basic-linck li:not(:last-child){
+    margin-right: 50px;
+
 }
 .basic-linc{
+    display: flex;
     padding-left: 0%;
+}
 
+.basic-linc .basic-li:not(:last-child){
+    
+    margin-right: 50px;
+    
 }
 .basic-linc .linc{
     color: var(--black-color);
@@ -151,19 +176,22 @@ ul{
     color: var(--black-color);
     margin-top: 0px;
     margin-bottom: 50px;
-    padding-top: 94px;   
+       
 }
 
 .button {
     background-color: var(--blue-color);
     color: var(--white-color);
+    width: 200px;
+    height: 50px;
     font-weight: 700;
     line-height: 1.8;
     font-size: 16px;
+    letter-spacing: 0.06em;
     border:  #2196F3;
     border-radius: 4px;
     text-align: center;
-    
+    margin-bottom: 200px;
     
 }
 .button:hover,
@@ -175,6 +203,7 @@ ul{
 
 /* Кнопки портфолио */
 }
+
 .button-grey{
     font-family: inherit;
     background-color: #F5F4FA;
@@ -186,15 +215,18 @@ ul{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .button-grey-block{
     display: flex;
     justify-content: center;
-
     margin-top: 0px;
     margin-bottom: 34px;
     padding-left: 0px;
 }
-    
+.button-grey-block li:not(:last-child){
+    margin-right: 8px;
+}
+
 .button-grey:hover,
 .button-grey:focus{
     background-color: var(--blue-color);
@@ -230,11 +262,16 @@ ul{
     letter-spacing: 0.03em;
     color: var(--basic-text-color);
     letter-spacing: 0.03em;
+
     display: inline-flex;
     text-align: start;
     outline: 2px solid red;
     margin-top: 0%;
     margin-bottom: 94px;
+    padding-left: 0px;
+}
+.information .item:not(:last-child){
+    margin-right: 30px;
 }
 .main-information-title{
     margin-top: 0%;
@@ -281,24 +318,31 @@ ul{
 /* Проект */
 
 .section-block{
-    margin-top: 0px;
-    padding-left: 0px; 
-    
+    margin-top: 0px; 
+    margin-right: 0px;
+    margin-bottom: 94px;
+    padding-left: 0px;
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
+    background-color: aqua;
 }
-
+.project-item:nth-child(3n){
+    margin-right: 0px;
+}
+.project-item:nth-last-child(-n+3){
+    margin-bottom: 0px;
+}
 
 .project-item{
     width: 370px;
     border: 1px solid #EEEEEE;
-    
-    
-    
-    
+    margin-right: 30px;
+    margin-bottom: 30px;
     
 }
+
 .project-title{
     font-weight: 700;
     font-size: 18px;
@@ -319,18 +363,18 @@ ul{
     
 }
 
-
-
-
-
 /* Футер */
 .footer-grey{
     background-color: var(--section-order-service);   
 }
+.footer-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .address{
     color: var(--white-color);
     font-style: normal;
-    margin-bottom: 9px;
 
 }
 .basic-linck-footer .linck-footer{
@@ -339,12 +383,13 @@ ul{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-bottom: 9px;
+    padding-bottom: 6px;
 
     
 }
 .basic-linck-footer{
     padding-left: 0px;
+    
 }
 .linck-footer{
     color: var(--blue-color);
