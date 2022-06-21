@@ -32,7 +32,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; 
+   
+    
+}
+.border{
+    border-bottom: 1px #ECECEC;
 }
 
 .container-nav-page{  
@@ -79,8 +84,7 @@ ul{
 .basic-header{
     display: flex;
     align-items: center;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;   
 }
 .basic-linc,
 .basic-linck{
