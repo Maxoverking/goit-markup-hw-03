@@ -239,13 +239,10 @@ ul{
     padding-top: 50px;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 94px;
-
-    
+    padding-bottom: 94px;  
 }
 
 /* Cекции h3 */
-
 
 .main-information{
     font-weight: 700;
