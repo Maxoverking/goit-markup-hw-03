@@ -17,8 +17,9 @@
 
 <body>
         <!--Шапка сайта-->
-    <div class="container ">
-        <header class="basic">
+    
+    <header class="basic"> 
+        <div class="container ">
             <div class="basic-header">
                 <nav class="container-nav-page">
                     <a href="./index.html" class="logo">Web<span class="black">Studio</span></a>
@@ -29,24 +30,26 @@
                     </ul>
                 </nav>
                 <ul class="basic-linck">
-                    <li class="item"><a class="linck" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="item"><a class="linck" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="items"><a class="linck" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="items"><a class="linck" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </div>
-        </header>
-    </div>
+        </div>
+    </header>
+    
     <!--Основа сайта-->
     <main>
         <!---Первая секция-->
-        <div>
             <section class="section-color-black">
-                <h1 class="section-title-h1">Эффективные решения <br> для вашего бизнеса</h1>
-                <button class="button" type="button">Заказать услугу</button>
+                <div class="section-title-h1-button">
+                    <h1 class="section-title-h1">Эффективные решения <br> для вашего бизнеса</h1>
+                    <button class="button" type="button">Заказать услугу</button>
+                </div>  
             </section>
-        </div>
         <!--Вторая секция-->
-        <div class="container">
-            <section class="section">
+        
+        <section class="section">
+            <div class="container">
                 <ul class="information">
                     <li class="item">
                     <h3 class="main-information" >Внимание к деталям</h3>
@@ -68,7 +71,9 @@
                     <p class="main-information-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+            </div>
         <!--Картинки-->
+            <div class="container">
                 <h2 class="section-title-h2">Чем мы занимаемся</h2>
                 <ul class="section-picture">
                     <li><img src="./images/box1.jpg" alt="Клавиатура" width="370"></li>
@@ -77,8 +82,8 @@
 
                     <li> <img src="./images/img3.jpg" alt="Планшет" width="370"></li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
         <!-- Команда-->
             
             <section class="section-team">
@@ -87,25 +92,33 @@
                     <ul class="section-people">
                         <li>
                             <img src="./images/img1.jpg" alt="Product Designer" width="270">
-                            <h3 class="section-team-h3">Игорь Демьяненко</h3>
-                            <p class="section-team-p">Product Designer</p>
+                            <div class="people-description">
+                                <h3 class="section-team-h3">Игорь Демьяненко</h3>
+                                <p class="section-team-p">Product Designer</p>
+                            </div>
                         </li>
                         <li>
                             <img src="./images/img(2).jpg" alt="Frontend Developer" width="270">
-                            <h3 class="section-team-h3">Ольга Репина</h3>
-                            <p class="section-team-p">Frontend Developer</p>
+                            <div class="people-description">
+                                <h3 class="section-team-h3">Ольга Репина</h3>
+                                <p class="section-team-p">Frontend Developer</p>
+                            </div>
                         </li>
                     
                         <li>
                             <img src="./images/img(3).jpg" alt="Marketing" width="270">
-                            <h3 class="section-team-h3">Николай Тарасов</h3>
-                            <p class="section-team-p">Marketing</p>
+                            <div class="people-description">
+                                <h3 class="section-team-h3">Николай Тарасов</h3>
+                                <p class="section-team-p">Marketing</p>
+                            </div>
                         </li>
                     
                         <li>
                             <img src="./images/img4.jpg" alt="UI Designer" width="270">
-                            <h3 class="section-team-h3">Михаил Ермаков</h3>
-                            <p class="section-team-p">UI Designer</p>
+                            <div class="people-description">
+                                <h3 class="section-team-h3">Михаил Ермаков</h3>
+                                <p class="section-team-p">UI Designer</p>
+                            </div>
                         </li>
                     </ul>
                 </div>

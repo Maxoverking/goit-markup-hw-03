@@ -25,6 +25,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 1px solid red;
     
 }
 .container-port{
@@ -33,11 +34,11 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px; 
-   
+    outline: 1px solid red;  
     
 }
 .border{
-    border-bottom: 1px #ECECEC;
+    border-bottom: 1px solid var(--basic-text-color);
 }
 
 .container-nav-page{  
@@ -57,8 +58,8 @@ a{
 }
 .basic{
     background-color: var(--white-color);
-    margin-top: 24px;
-    margin-bottom: 0px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     
 }
 .logo{
@@ -83,8 +84,7 @@ ul{
 
 .basic-header{
     display: flex;
-    align-items: center;
-    padding-bottom: 25px;   
+    align-items: center;   
 }
 .basic-linc,
 .basic-linck{
@@ -97,7 +97,8 @@ ul{
     display: flex;
     justify-content: flex-end;
     padding-left: 0px; 
-    margin-left: 331px;  
+    margin-left: 331px; 
+    
 }
 .basic-linck li:not(:last-child){
     margin-right: 50px;
@@ -108,8 +109,7 @@ ul{
     padding-left: 0%;
 }
 
-.basic-linc .basic-li:not(:last-child){
-    
+.basic-linc .basic-li:not(:last-child){ 
     margin-right: 50px;
     
 }
@@ -150,8 +150,12 @@ ul{
 .section-color-black{
     background: var(--section-order-service);
     margin-top: 0%;
-    margin-bottom: 94px;
     text-align: center;
+}
+.section-title-h1-button{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
 }
 .section-title-h1{
     color : var(--white-color);
@@ -163,7 +167,7 @@ ul{
     text-transform: uppercase;
     margin-top: 0px;
     margin-bottom: 30px;
-    padding-top: 200px;
+    
 
 }
 
@@ -174,9 +178,8 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-color);
-    margin-top: 0px;
-    margin-bottom: 50px;
-       
+    margin: 0px 0px; 
+      
 }
 
 .button {
@@ -191,7 +194,7 @@ ul{
     border:  #2196F3;
     border-radius: 4px;
     text-align: center;
-    margin-bottom: 200px;
+    
     
 }
 .button:hover,
@@ -236,11 +239,12 @@ ul{
 }
 /* Картинки */
 .section-picture{
-    margin-top: 0%;
+    margin: 0px 0px;
     padding-left: 0px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
+    
 }
 
 /* Cекции h3 */
@@ -265,9 +269,11 @@ ul{
 
     display: inline-flex;
     text-align: start;
-    margin-top: 0%;
-    margin-bottom: 94px;
-    padding-left: 0px;
+    margin: auto;
+    padding: 94px 0px 94px 0px;  
+}
+.item{
+    width: 270px;
 }
 .information .item:not(:last-child){
     margin-right: 30px;
@@ -281,12 +287,11 @@ ul{
     background: #F5F4FA;
 }
 .section-people{
-    margin-top: 0px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 0px;
-    padding-bottom: 94px;
-    padding-left: 0px;
+    margin: 0px;
+    padding: 50px 0px 94px;
+    
 }
 .section-people li{
     background-color: var(--white-color);
@@ -300,15 +305,19 @@ ul{
     font-size: 16px;
     line-height: 1.18;
     color: var(--black-color);
-    
+    margin: 0px;
+    margin-bottom: 10px;
 
 }
 .section-team-p{
     font-size: 16px;
     line-height: 1.18;
     color: var(--basic-text-color);
+    margin: 0px;
     
-    
+}
+.people-description{
+    padding: 30px 0px;
 }
 /* Проект */
 
