@@ -80,12 +80,18 @@ ul{
     display: flex;
     align-items: center;   
 }
-.basic-linc,
-.basic-linck{
+.basic-linc{
     display: block;
     margin: 0%; 
     padding-top: 4px;
     padding-bottom: 4px;
+}
+.basic-linck{
+    display: block;
+    margin: 0%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
 }
 .basic-linck{
     display: flex;
@@ -103,10 +109,16 @@ ul{
     padding-left: 0%;
 }
 
-.basic-linc .basic-li:not(:last-child){ 
-    margin-right: 50px;
-    
+.basic-linc .basic-li{ 
+    padding: 4px 25px;
 }
+.basic-linc .basic-li:last-child{
+    padding-right: 0px;
+}
+.basic-linc .basic-li:first-child{
+    padding-left: 0px;
+}
+
 .basic-linc .linc{
     color: var(--black-color);
     font-weight: 500;
@@ -150,20 +162,21 @@ ul{
     padding-top: 200px;
     padding-bottom: 200px;
     
+    
 }
 .section-title-h1{
     color : var(--white-color);
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em; 
     text-transform: uppercase;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin: 0px auto 30px;
     
 
 }
+
 
 .section-title-h2{
     font-weight: 700;
@@ -190,6 +203,7 @@ ul{
     border:  #2196F3;
     border-radius: 4px;
     text-align: center;
+    
     
     
 }
@@ -299,6 +313,7 @@ ul{
     background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 .section-people{
     display: flex;
