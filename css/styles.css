@@ -43,6 +43,7 @@ body{
 a{
     text-decoration: none;
 }
+
 /* Лого спан цвет */
 .black{
     color: var(--black-color);
@@ -401,7 +402,9 @@ ul{
     margin: 0px;
     
 }
-
+.cards{
+    display: block;
+}
 /* Футер */
 .footer-grey{
     background-color: var(--section-order-service); 
