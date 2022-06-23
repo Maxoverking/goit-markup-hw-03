@@ -90,7 +90,7 @@ ul{
     display: flex;
     justify-content: flex-end;
     padding-left: 0px; 
-    margin-left: 331px; 
+    margin-left: auto; 
     
 }
 .basic-linck li:not(:last-child){
@@ -398,6 +398,8 @@ ul{
 }
 .cards{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 /* Футер */
 .footer-grey{
